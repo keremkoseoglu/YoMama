@@ -1,0 +1,293 @@
+package kko.yomama;
+
+import java.util.Random;
+
+import kko.yomama.JokeGroup.GROUP_TYPE;
+
+public class JokeDB {
+
+	private JokeGroup[] groups;
+	
+	public JokeDB() {
+		
+		// Set groups
+		groups = new JokeGroup[5];
+		
+		// Fat
+		groups[0] = new JokeGroup(GROUP_TYPE.FAT);
+		groups[1] = new JokeGroup(GROUP_TYPE.OLD);
+		groups[2] = new JokeGroup(GROUP_TYPE.STUPID);
+		groups[3] = new JokeGroup(GROUP_TYPE.UGLY);
+		groups[4] = new JokeGroup(GROUP_TYPE.SLUTTY);
+		
+		groups[0].addJoke(new Joke("Yo mama's so fat and old that when God said \'Let there be Light\', he told her to move her fat ass out of the way."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, \'Place Your Ad Here\' is printed on each of her butt cheeks."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, a picture of her fell off the wall!"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, all of her clothes have to be custom made by a contractor."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, all the restaurants in town have signs that say: \'Maximum Occupancy: 240 Patrons OR Yo Mama!\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, at the zoo, the elephants started throwing her peanuts."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, every time she wears high heels, she strikes oil."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, her ass has its own congressman."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, her belly button doesn't have lint, it has sweaters."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, her belly jiggle is the first ever perpetual motion machine."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, her blood type is Ragu."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, her cereal bowl came with a lifeguard."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, her driver's license says \'Picture continued on other side.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, her picture takes two frames."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, I gotta take three steps back just to see all of her."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, I had to take a train and two busses just to get on her good side."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, I ran around her twice and got lost."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, if she weighed five more pounds, she could get group insurance!"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, instead of Levis 501 jeans, she wears Levi's 1002's."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, NASA is going to use her to fill the hole in the ozone layer."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, no one can talk behind her back."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, people jog around her for exercise."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she can lay down and stand up and her height doesn't change. "));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she can't even jump to a conclusion. "));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she can't wear Daisy Dukes. She has to wear Boss Hoggs."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she could sell shade."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she fell in love and broke it."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she gets clothes in three sizes: extra large, jumbo, and oh-my-goodness-it's-coming-towards-us!"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she gets runs in her jeans."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she goes to a restaurant, looks at the menu, and says \'Okay.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she has to grease her hands to get into her pockets."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she has to iron her pants on the driveway."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she jumped up in the air and got stuck."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she puts mayonnaise on aspirin."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she sat on a dollar and made change."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she shops for clothes in the local tent shop."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she was born with a silver shovel in her mouth."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she was floating in the ocean and Spain claimed her as a new world."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she wears a watch on each arm, one for each timezone."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she went on a light diet... As soon as it's light she starts eating."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she went to the movies and sat next to everyone."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she's 36-24-36... but that's her forearm, neck, and thigh!"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she's got smaller fat women orbiting around her."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she's half Indian, half Irish, and half American."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, that when she was diagnosed with the flesh eating disease, the doctor gave her 5 years to live."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, the horse on her Polo shirt is real."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, the last time she saw 90210 she was on a scale."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, the telephone company gave her two area codes."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, they had to baptize her at Sea World."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, they had to grease a door frame and hold a Twinkie on the other side to get her through."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, they had to install speed bumps at the all-u-can-eat buffet."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, they use the elastic in her underwear for bungee jumping."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when her beeper went off, people thought she was backing up."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when I said I wanted \'Pigs in a blanket\' she got back in bed."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when I yell \'Kool-Aid,\' she comes crashing through the wall."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she auditioned for a part in \'Indiana Jones,\' she got the part as the big rolling ball."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she brought her dress to the cleaners, they said \'Sorry, we don't do curtains.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she crosses the street, cars look out for her."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she dances, she makes the band skip."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she gets in an elevator, it HAS to go down."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she gets on the scale it says \'To be continued.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she goes to a restaurant, she doesn't get a menu, she gets an estimate."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she goes to a restaurant, she even orders \'Thank You, Come Again.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she goes to the beach, little kids yell \'Free Willy, Free Willy.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she goes to the circus she sees the big top and asks \'Where can I try that on?\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she goes to the circus she takes up all the rings."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she hauls ass, she has friends come help."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she hauls ass, she has to make two trips."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she leaves the beach everybody shouts \'The coast is clear.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she put on some BVD's by the time they reached her waist they spelled \'BouleVarD.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she ran away, they had to use all four sides of the milk carton."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she runs she makes the CD player skip... at the radio station."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she stepped on a train track, the warning lights went on."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she steps on a scale, it says \'One at a time, please.\'"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she swims, she leaves stretch marks on the swimming pool."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she takes a shower, her feet don't get wet."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she turns around, people throw her a welcome back party."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she was walking in her jeans I swear I smelled something burning."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she wears heels, they're flats by the afternoon."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, when she works at the movie theater, she works as the screen."));
+		groups[4].addJoke(new Joke("Your mama's like a goalie: she changes her pads after three periods."));
+		groups[4].addJoke(new Joke("Your mama's like Crazy Eddie, she's practically giving it all away"));
+		groups[0].addJoke(new Joke("Your Mama's so fat, a picture of her would fall off the wall!"));
+		groups[0].addJoke(new Joke("Your Mama's so fat, at the zoo the elephants started throwing Her peanuts."));
+		groups[0].addJoke(new Joke("Your Mama's so fat, her yearbook picture was an aerial photo."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, all of her clothes have to be custom made by a contractor."));
+		groups[0].addJoke(new Joke("Yo mama's so fat, all the restaurants in town have signs that say: \'Maximum Occupancy: 240 Patrons OR Yo Mama!\'"));
+		groups[2].addJoke(new Joke("Yo mama's so fat and old that when God said \'Let there be Light\', he told her to move her fat ass out of the way."));
+		groups[2].addJoke(new Joke("Yo mama's so fat, \'Place Your Ad Here\' is printed on each of her butt cheeks."));
+		groups[2].addJoke(new Joke("Yo mama's so fat, a picture of her fell off the wall!"));
+		groups[2].addJoke(new Joke("Yo mama's so fat, all of her clothes have to be custom made by a contractor."));
+		groups[2].addJoke(new Joke("Yo mama's so fat, all the restaurants in town have signs that say: \'Maximum Occupancy: 240 Patrons OR Yo Mama!\'"));
+		groups[2].addJoke(new Joke("Yo mama's so fat, at the zoo, the elephants started throwing her peanuts."));
+		groups[2].addJoke(new Joke("Yo mama's so fat, every time she wears high heels, she strikes oil."));
+		groups[3].addJoke(new Joke("Yo mama's so fat and old that when God said \'Let there be Light\', he told her to move her fat ass out of the way."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, \'Place Your Ad Here\' is printed on each of her butt cheeks."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, a picture of her fell off the wall!"));
+		groups[3].addJoke(new Joke("Yo mama's so fat, all of her clothes have to be custom made by a contractor."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, all the restaurants in town have signs that say: \'Maximum Occupancy: 240 Patrons OR Yo Mama!\'"));
+		groups[3].addJoke(new Joke("Yo mama's so fat, at the zoo, the elephants started throwing her peanuts."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, every time she wears high heels, she strikes oil."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, her ass has its own congressman."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, her belly button doesn't have lint, it has sweaters."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, her belly jiggle is the first ever perpetual motion machine."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, her blood type is Ragu."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, her cereal bowl came with a lifeguard."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, her driver's license says \'Picture continued on other side.\'"));
+		groups[3].addJoke(new Joke("Yo mama's so fat, her picture takes two frames."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, I gotta take three steps back just to see all of her."));
+		groups[3].addJoke(new Joke("Yo mama's so fat, I had to take a train and two busses just to get on her good side."));
+		groups[4].addJoke(new Joke("Your mom is  like a postage stamp, you lick her, stick her, then send her away."));
+		groups[4].addJoke(new Joke("Your mom is like a bowling ball.  She's picked up, fingered, and then thrown in the gutter."));
+		groups[4].addJoke(new Joke("Your mom is like a bubble-gum machine... five cents a blow."));
+		groups[4].addJoke(new Joke("Your mom is like a bus, fifty cents and she's ready to ride!"));
+		groups[4].addJoke(new Joke("Your mom is like a bus:  Guys climb on and off her all day long."));
+		groups[4].addJoke(new Joke("Your mom is like a doorknob - everyone gets a turn!"));
+		groups[4].addJoke(new Joke("Your mom is like a doorknob, everyone gets a turn!"));
+		groups[4].addJoke(new Joke("Your mom is like a golf course, everyone GETS a hole in one!"));
+		groups[4].addJoke(new Joke("Your mom is like a hardware store: 4 cents a screw!"));
+		groups[4].addJoke(new Joke("Your mom is like a refridgerator: everyone likes to put their meat in her!"));
+		groups[4].addJoke(new Joke("Your mom is like a rifle... four cocks and she's loaded."));
+		groups[4].addJoke(new Joke("Your mom is like a screen door, after a couple bangs she tends to loosen up!"));
+		groups[4].addJoke(new Joke("Your mom is like a shotgun: one cock and she blows!"));
+		groups[4].addJoke(new Joke("Your mom is like a T.V. set, even a three year old can turn her on!"));
+		groups[4].addJoke(new Joke("Your mom is like a tomato source bottle, everyone gets a squeeze out of her!"));
+		groups[4].addJoke(new Joke("Your mom is like a Toyota: \'Oh what a feelin'!\'"));
+		groups[4].addJoke(new Joke("Your mom is like a vaccuum cleaner.....a real good suck.  "));
+		groups[4].addJoke(new Joke("Your mom is like cake mix, 15 servings per package!"));
+		groups[4].addJoke(new Joke("Your mom is like chinese food:  sweet, sour and cheap!"));
+		groups[4].addJoke(new Joke("Your mom is like Domino's pizza-- Something for nothing"));
+		groups[4].addJoke(new Joke("Your mom is like Orange Crush: \'Good Vibrations!\'"));
+		groups[4].addJoke(new Joke("Your mom is like potato chips-- Fri-to Lay"));
+		groups[4].addJoke(new Joke("Your mom is like the pillbury doughboy - everyone gets a poke!"));
+		groups[4].addJoke(new Joke("Your mom is like the railway system, she gets laid all over the country!"));
+		groups[0].addJoke(new Joke("Your mom is lips so big, Chap Stick had to invent a spray."));
+		groups[0].addJoke(new Joke("Your mom is mouth so big, she speaks in surround sound."));
+		groups[0].addJoke(new Joke("Your mom is nose so big she makes Pinochio look like a cat!"));
+		groups[0].addJoke(new Joke("Your mom is nose so big you can go bowling with her boogers!"));
+		groups[0].addJoke(new Joke("Your mom is so fat God couldn't light Earth till she moved!"));
+		groups[0].addJoke(new Joke("Your mom is so fat her neck looks like a pair of hot dogs!"));
+		groups[0].addJoke(new Joke("Your mom is so fat NASA has to orbit a satellite around her!"));
+		groups[0].addJoke(new Joke("Your mom is so fat people jog around her for exercise"));
+		groups[0].addJoke(new Joke("Your mom is so fat she cant reach her back pocket."));
+		groups[0].addJoke(new Joke("Your mom is so fat she fell in love and broke it."));
+		groups[0].addJoke(new Joke("Your mom is so fat she goes to a resturant, looks at the menu and says \'okay!\'"));
+		groups[0].addJoke(new Joke("Your mom is so fat she got to iron her pants on the driveway"));
+		groups[0].addJoke(new Joke("Your mom is so fat she had to go to Sea World to get baptized"));
+		groups[0].addJoke(new Joke("Your mom is so fat she has a wooden leg with a kickstand!"));
+		groups[0].addJoke(new Joke("Your mom is so fat she lay on the beach and people run around yelling Free Willy"));
+		groups[0].addJoke(new Joke("Your mom is so fat she put on her lipstick with a paint-roller"));
+		groups[0].addJoke(new Joke("Your mom is so fat she rolled over 4 quarters and it made a dollar!"));
+		groups[0].addJoke(new Joke("Your mom is so fat she sat on a quarter and a booger shot out of george washington's nose."));
+		groups[0].addJoke(new Joke("Your mom is so fat she sat on the beach and Greenpeace threw her in!"));
+		groups[0].addJoke(new Joke("Your mom is so fat she stands in two time zones."));
+		groups[0].addJoke(new Joke("Your mom is so fat she stepped on a rainbow and made Skittles."));
+		groups[0].addJoke(new Joke("Your mom is so fat she was floating in the ocean and spain claimed her for the new world new world"));
+		groups[0].addJoke(new Joke("Your mom is so fat she went to the movies and sat next to everyone"));
+		groups[0].addJoke(new Joke("Your mom is so fat she's got Amtrak written on her leg."));
+		groups[0].addJoke(new Joke("Your mom is so fat she's got her own area code!"));
+		groups[0].addJoke(new Joke("Your mom is so fat she's got more Chins than a Hong Kong phone book!"));
+		groups[0].addJoke(new Joke("Your mom is so fat she's on both sides of the family!"));
+		groups[0].addJoke(new Joke("Your mom is so fat that her senior pictures had to be arial views!"));
+		groups[0].addJoke(new Joke("Your mom is so fat that she would have been in E.T., but when she rode the bike across the moon, she caused an eclipse."));
+		groups[0].addJoke(new Joke("Your mom is so fat that when I tried to drive around her I ran out of gas."));
+		groups[0].addJoke(new Joke("Your mom is so fat that when whe was born, she gave the hospital stretch marks."));
+		groups[0].addJoke(new Joke("Your mom is so fat the animals at the zoo feed her."));
+		groups[0].addJoke(new Joke("Your mom is so fat the highway patrol made her wear \'Caution! Wide Turn\'"));
+		groups[0].addJoke(new Joke("Your mom is so fat the only pictures you have of her are satellite pictures"));
+		groups[0].addJoke(new Joke("Your mom is so fat they use the elastic in her underwear for bungee jumping"));
+		groups[0].addJoke(new Joke("Your mom is so fat we went to the drive-in and didn't have to pay because we dressed her as a Chevrolet."));
+		groups[0].addJoke(new Joke("Your mom is so fat when she bungee jumps, she brings down the bridge too"));
+		groups[0].addJoke(new Joke("Your mom is so fat when she gets on the scale it says to be continued."));
+		groups[0].addJoke(new Joke("Your mom is so fat when she gets on the scale it says to be continued."));
+		groups[0].addJoke(new Joke("Your mom is so fat when she gets on the scale it says we don't do livestock."));
+		groups[0].addJoke(new Joke("Your mom is so fat when she goes to an all you can eat buffet, they have to install speed bumps."));
+		groups[0].addJoke(new Joke("Your mom is so fat when she goes to an amusement park, people try to ride HER!"));
+		groups[0].addJoke(new Joke("Your mom is so fat when she jumps up in the air she gets stuck!!!"));
+		groups[0].addJoke(new Joke("Your mom is so fat when she lies on the beach no one else gets sun!"));
+		groups[0].addJoke(new Joke("Your mom is so fat when she plays hopscotch, she goes New York, L.A.,Chicago..."));
+		groups[0].addJoke(new Joke("Your mom is so fat when she sits around the house, she SITS AROUND THE HOUSE!"));
+		groups[0].addJoke(new Joke("Your mom is so fat when she sits on my face I can't hear the stereo."));
+		groups[0].addJoke(new Joke("Your mom is so fat when she steps on a scale, it read \'one at a time, please\'"));
+		groups[0].addJoke(new Joke("Your mom is so fat when she wears a yellow raincoat, people said \'Taxi!\'"));
+		groups[0].addJoke(new Joke("Your mom is so fat when she wears one of those X jackets, helicopters try to land on her back!"));
+		groups[0].addJoke(new Joke("Your mom is so fat when they used her underwear elastic for bungee jumping, they hit the ground."));
+		groups[0].addJoke(new Joke("Your mom is so fat when you get on top of her your ears pop!"));
+		groups[0].addJoke(new Joke("Your mom is so fat you haveta roll over twice to get off her..."));
+		groups[1].addJoke(new Joke("Your mom is so old her birth certificate is in Roman numerals."));
+		groups[1].addJoke(new Joke("Your mom is so old her birth certificate says expired on it."));
+		groups[1].addJoke(new Joke("Your mom is so old her social security number is 1!"));
+		groups[1].addJoke(new Joke("Your mom is so old I told her to act her own age, and she died."));
+		groups[1].addJoke(new Joke("Your mom is so old she has a picture of Moses in her yearbook."));
+		groups[1].addJoke(new Joke("Your mom is so old she has Jesus' beeper number!"));
+		groups[1].addJoke(new Joke("Your mom is so old she knew Burger King while he was still a prince."));
+		groups[1].addJoke(new Joke("Your mom is so old she owes Jesus 3 bucks!"));
+		groups[1].addJoke(new Joke("Your mom is so old she owes Jesus a nickel."));
+		groups[1].addJoke(new Joke("Your mom is so old she's in Jesus's yearbook!"));
+		groups[1].addJoke(new Joke("Your mom is so old that when she was in school there was no history class."));
+		groups[4].addJoke(new Joke("Your mom is so slutty I fucked her and I's a chick!"));
+		groups[4].addJoke(new Joke("Your mom is so slutty she blind and seeing another man."));
+		groups[4].addJoke(new Joke("Your mom is so slutty she could suck the chrome off a trailer hitch ball!"));
+		groups[4].addJoke(new Joke("Your mom is so slutty she could suck-start a Harley!"));
+		groups[4].addJoke(new Joke("Your mom is so slutty she had her own \'Hands across her ass\' charity drive"));
+		groups[4].addJoke(new Joke("Your mom is so slutty she was on the cover of wheaties, with her legs open, and it said \'breakfast of the champs\'"));
+		groups[4].addJoke(new Joke("Your mom is so slutty that I could've been your daddy, but the guy in line behind me had the correct change."));
+		groups[4].addJoke(new Joke("Your mom is so slutty that when she heard Santa Claus say HO HO HO she thought she was getting it three times."));
+		groups[4].addJoke(new Joke("Your mom is so slutty when she got a new mini skirt, everyone commented on her nice belt!"));
+		groups[2].addJoke(new Joke("Your mom is so stupid she bought a solar-powered flashlight!"));
+		groups[2].addJoke(new Joke("Your mom is so stupid she got locked in a grocery store and starved!"));
+		groups[2].addJoke(new Joke("Your mom is so stupid she sold her car for gasoline money!"));
+		groups[2].addJoke(new Joke("Your mom is so stupid that she puts lipstick on her head just to make-up her mind"));
+		groups[2].addJoke(new Joke("Your mom is so stupid that she tried to put M&M's in alphabetical order!"));
+		groups[2].addJoke(new Joke("Your mom is so stupid when she saw the NC-17 (under 17 not admitted) sign, she went home and got 16 friends"));
+		groups[2].addJoke(new Joke("Your mom is so stupid when she went to take the 44 bus, she took the 22 twice instead."));
+		groups[2].addJoke(new Joke("Your mom is so stupid when you stand next to her you hear the ocean!"));
+		groups[2].addJoke(new Joke("Your mom is so stupid you have to dig for her IQ!"));
+		groups[3].addJoke(new Joke("Your mom is so ugly for Halloween she trick or treats on the phone!"));
+		groups[3].addJoke(new Joke("Your mom is so ugly her mom had to tie a steak around her neck to get the dogs to play with her."));
+		groups[3].addJoke(new Joke("Your mom is so ugly just after she was born, her mother said \'What a treasure!\' and her father said \'Yes, let's go bury it.\'"));
+		groups[3].addJoke(new Joke("Your mom is so ugly people go as her for Halloween."));
+		groups[3].addJoke(new Joke("Your mom is so ugly she gets 364 extra days to dress up for Halloween."));
+		groups[3].addJoke(new Joke("Your mom is so ugly she made an onion cry!"));
+		groups[3].addJoke(new Joke("Your mom is so ugly she made an onion cry."));
+		groups[3].addJoke(new Joke("Your mom is so ugly she scares the roaches away.                        "));
+		groups[3].addJoke(new Joke("Your mom is so ugly she tried to take a bath the water jumped out!"));
+		groups[3].addJoke(new Joke("Your mom is so ugly she turned Medusa to stone!"));
+		groups[3].addJoke(new Joke("Your mom is so ugly that your father takes her to work with him so that he doesn't have to kiss her goodbye."));
+		groups[3].addJoke(new Joke("Your mom is so ugly the government moved Halloween to her birthday."));
+		groups[3].addJoke(new Joke("Your mom is so ugly they didn't give her a costume when she tried out for Star Wars."));
+		groups[3].addJoke(new Joke("Your mom is so ugly they filmed \'Gorillas in the Mist\' in her shower!"));
+		groups[3].addJoke(new Joke("Your mom is so ugly they push her face into dough to make gorilla cookies."));
+		groups[3].addJoke(new Joke("Your mom is so ugly they put her in dough and made monster cookies!"));
+		groups[3].addJoke(new Joke("Your mom is so ugly when she joined an ugly contest, they said \'Sorry, no professionals.\'"));
+		groups[3].addJoke(new Joke("Your mom is so ugly when she walks down the street in September, people say \'Damn, is it Halloween already?\'"));
+		groups[3].addJoke(new Joke("Your mom is so ugly when she walks into a bank, they turn off the surveillence cameras"));
+		groups[3].addJoke(new Joke("Your mom is so ugly when they took her to the beautician it took 12 hours. . .for a quote!"));
+		groups[3].addJoke(new Joke("Your mom is teeth are so rotten, when she smiles they look like dice."));
+		groups[3].addJoke(new Joke("Your mom is teeth are so yellow she spits butter!"));
+		groups[3].addJoke(new Joke("Your mom is teeth are so yellow traffic slows down when she smiles!"));
+		groups[3].addJoke(new Joke("Your mom is's glasses are so thick she can see into the future."));
+		groups[3].addJoke(new Joke("Your mom is's glasses are so thick that when she looks on a map she can see people waving."));
+		groups[3].addJoke(new Joke("Your mom's got a wooden leg with a real foot."));
+		groups[4].addJoke(new Joke("Your Mom's like a bowling ball she always comes back for more"));
+		groups[4].addJoke(new Joke("Your Mom's like a bowling ball she always winds up in the gutter"));
+		groups[4].addJoke(new Joke("Your Mom's like a bowling ball you can fit three fingers in"));
+		groups[4].addJoke(new Joke("Your Mom's like a race car driver... she burns a lot of rubbers"));
+		groups[4].addJoke(new Joke("Your Mom's like an ice cream cone... everyone gets a lick"));
+		groups[4].addJoke(new Joke("Your Mom's like Denny's... open 24 hours"));
+		groups[4].addJoke(new Joke("Your Mom's like McDonalds... Billions and Billions served"));
+		groups[0].addJoke(new Joke("Yo mama's so fat, she puts mayonnaise on aspirin."));
+		
+	}
+	
+	public Joke getRandomJoke(GROUP_TYPE G) {
+		
+		Joke ret = null;
+		
+		for (int n = 0; n < groups.length; n++) {
+			if (groups[n].getType() == G) {
+				
+				int pos = -1;
+				
+				while (pos < 0 || pos >= groups[n].getCount()) pos = (int)(Math.random() * (groups[n].getCount()));
+				ret = groups[n].getJoke(pos);
+			}
+		}
+		
+		return ret;
+	}
+	
+}

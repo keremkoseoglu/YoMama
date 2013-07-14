@@ -1,0 +1,6 @@
+## Interface: 20100
+## Title: YoMama 1.4
+## Notes: YoMama Addon, by Kerem Koseoglu - http://kerem.koseoglu.info
+## OptionalDeps:
+## Dependencies:
+YoMama.xml
